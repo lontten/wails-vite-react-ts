@@ -1,0 +1,7 @@
+{
+  "name": "React TypeScript + Vite",
+  "shortname": "wails-vite-react-ts",
+  "author": "lontten <lontten@163.com",
+  "description": "React template with TS enabled, using Vite for asset bundling",
+  "helpurl": "https://github.com/lontten/wails-vite-react-ts"
+}
