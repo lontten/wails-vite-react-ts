@@ -5,13 +5,18 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  const greet = async () => {
+    const n = await window.go.main.App.Greet(count)
+    setCount(n)
+  }
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
+          <button type="button" onClick={greet}>
             count is: {count}
           </button>
         </p>
