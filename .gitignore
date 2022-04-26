@@ -10,7 +10,7 @@
 # Misc
 .DS_Store
 node_modules/
-dist/
+#dist/
 dist-ssr/
 
 # Local files
